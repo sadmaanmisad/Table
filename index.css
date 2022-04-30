@@ -1,0 +1,35 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #363a37;
+    font-family: "Open Sans', sans-serif;
+}
+    .content{
+    width: 800px;
+    padding: 10px;
+}
+.table{
+    width: 100%; 
+    border-collapse: collapse;
+}
+    th, td{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    padding: 10px;
+    }
+    th{
+    background: #c51919;
+    color: #ffffff;
+    }
+    td{
+    background: #ffffff;
+}
